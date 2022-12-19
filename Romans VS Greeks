@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x,y,l;
+    cin>>x>>y>>l;
+    cout<<((l/2)+x)<<" "<<((l/2)+y);
+}
