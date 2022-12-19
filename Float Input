@@ -1,0 +1,9 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float A;
+    cin>>A;
+    cout<<setprecision(6)<<A;
+}
