@@ -1,0 +1,68 @@
+#include<iostream>
+using namespace std;
+class arr
+{
+    public:
+    void name()
+    {
+        cout<<"Enter the first name = "<<endl;
+    }
+    void id()
+    {
+        cout<<"Enter the identity number = "<<endl;
+    }
+    void age()
+    {
+        cout<<"Enter the age = "<<endl;
+    }
+    void salary()
+    {
+        cout<<"Enter the salary = "<<endl;
+    }
+    void des()
+    {
+        cout<<"Enter the designation of the Engineer: "<<endl;
+    }
+}a;
+class output:public arr
+{
+    public:
+    void par()
+    {
+        cout<<"Displaying the particulars of the Engineer"<<endl;
+    }
+    void name()
+    {
+        cout<<"Name = Ramu"<<endl;
+    }
+    void id()
+    {
+        cout<<"Identity Number = 12"<<endl;
+    }
+    void age()
+    {
+        cout<<"Age = 25"<<endl;
+    }
+    void salary()
+    {
+        cout<<"Salary = 50000"<<endl;
+    }
+    void des()
+    {
+        cout<<"Designition = Content"<<endl;
+    }
+}b;
+int main()
+{
+    a.name();
+    a.id();
+    a.age();
+    a.salary();
+    a.des();
+    b.par();
+    b.name();
+    b.id();
+    b.age();
+    b.salary();
+    b.des();
+}
